@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		096C50AD1CC1BEDB002C1E37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C50AC1CC1BEDB002C1E37 /* AppDelegate.swift */; };
+		096C50AF1CC1BEDB002C1E37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C50AE1CC1BEDB002C1E37 /* ViewController.swift */; };
+		096C50B21CC1BEDB002C1E37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096C50B01CC1BEDB002C1E37 /* Main.storyboard */; };
+		096C50B51CC1BEDB002C1E37 /* JaNe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 096C50B31CC1BEDB002C1E37 /* JaNe.xcdatamodeld */; };
+		096C50B71CC1BEDB002C1E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096C50B61CC1BEDB002C1E37 /* Assets.xcassets */; };
+		096C50BA1CC1BEDB002C1E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096C50B81CC1BEDB002C1E37 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		096C50A91CC1BEDB002C1E37 /* JaNe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaNe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		096C50AC1CC1BEDB002C1E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		096C50AE1CC1BEDB002C1E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		096C50B11CC1BEDB002C1E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		096C50B41CC1BEDB002C1E37 /* JaNe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JaNe.xcdatamodel; sourceTree = "<group>"; };
+		096C50B61CC1BEDB002C1E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		096C50B91CC1BEDB002C1E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		096C50BB1CC1BEDB002C1E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		096C50A61CC1BEDB002C1E37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096C50A01CC1BEDB002C1E37 = {
+			isa = PBXGroup;
+			children = (
+				096C50AB1CC1BEDB002C1E37 /* JaNe */,
+				096C50AA1CC1BEDB002C1E37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		096C50AA1CC1BEDB002C1E37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				096C50A91CC1BEDB002C1E37 /* JaNe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		096C50AB1CC1BEDB002C1E37 /* JaNe */ = {
+			isa = PBXGroup;
+			children = (
+				096C50AC1CC1BEDB002C1E37 /* AppDelegate.swift */,
+				096C50AE1CC1BEDB002C1E37 /* ViewController.swift */,
+				096C50B01CC1BEDB002C1E37 /* Main.storyboard */,
+				096C50B61CC1BEDB002C1E37 /* Assets.xcassets */,
+				096C50B81CC1BEDB002C1E37 /* LaunchScreen.storyboard */,
+				096C50BB1CC1BEDB002C1E37 /* Info.plist */,
+				096C50B31CC1BEDB002C1E37 /* JaNe.xcdatamodeld */,
+			);
+			path = JaNe;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		096C50A81CC1BEDB002C1E37 /* JaNe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096C50BE1CC1BEDB002C1E37 /* Build configuration list for PBXNativeTarget "JaNe" */;
+			buildPhases = (
+				096C50A51CC1BEDB002C1E37 /* Sources */,
+				096C50A61CC1BEDB002C1E37 /* Frameworks */,
+				096C50A71CC1BEDB002C1E37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaNe;
+			productName = JaNe;
+			productReference = 096C50A91CC1BEDB002C1E37 /* JaNe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		096C50A11CC1BEDB002C1E37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = holder;
+				TargetAttributes = {
+					096C50A81CC1BEDB002C1E37 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 096C50A41CC1BEDB002C1E37 /* Build configuration list for PBXProject "JaNe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 096C50A01CC1BEDB002C1E37;
+			productRefGroup = 096C50AA1CC1BEDB002C1E37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				096C50A81CC1BEDB002C1E37 /* JaNe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		096C50A71CC1BEDB002C1E37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096C50BA1CC1BEDB002C1E37 /* LaunchScreen.storyboard in Resources */,
+				096C50B71CC1BEDB002C1E37 /* Assets.xcassets in Resources */,
+				096C50B21CC1BEDB002C1E37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		096C50A51CC1BEDB002C1E37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				096C50AF1CC1BEDB002C1E37 /* ViewController.swift in Sources */,
+				096C50B51CC1BEDB002C1E37 /* JaNe.xcdatamodeld in Sources */,
+				096C50AD1CC1BEDB002C1E37 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		096C50B01CC1BEDB002C1E37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096C50B11CC1BEDB002C1E37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		096C50B81CC1BEDB002C1E37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				096C50B91CC1BEDB002C1E37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		096C50BC1CC1BEDB002C1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		096C50BD1CC1BEDB002C1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		096C50BF1CC1BEDB002C1E37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JaNe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jane.JaNe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		096C50C01CC1BEDB002C1E37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JaNe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jane.JaNe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096C50A41CC1BEDB002C1E37 /* Build configuration list for PBXProject "JaNe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096C50BC1CC1BEDB002C1E37 /* Debug */,
+				096C50BD1CC1BEDB002C1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		096C50BE1CC1BEDB002C1E37 /* Build configuration list for PBXNativeTarget "JaNe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				096C50BF1CC1BEDB002C1E37 /* Debug */,
+				096C50C01CC1BEDB002C1E37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		096C50B31CC1BEDB002C1E37 /* JaNe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				096C50B41CC1BEDB002C1E37 /* JaNe.xcdatamodel */,
+			);
+			currentVersion = 096C50B41CC1BEDB002C1E37 /* JaNe.xcdatamodel */;
+			path = JaNe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 096C50A11CC1BEDB002C1E37 /* Project object */;
+}
