@@ -1,0 +1,66 @@
+{
+    "show":"Sword Art Online"
+    "Seasons":[
+        {
+            "id":1
+            "episodes":[
+                        {
+                        "id":1
+                        "name":"The World of Swords"
+                        },
+                        {
+                        "id":2
+                        "name":"Beater"
+                        },
+                        {
+                        "id":3
+                        "name":"Red Nodes Reindeer"
+                        },
+                        {
+                        "id":4
+                        "name":"The Black Swordsman"
+                        },
+                        {
+                        "id":5
+                        "name":"A Crime Within the Walls"
+                        },
+                        {
+                        "id":6
+                        "name":"Illusionary Avenger"
+                        },
+                        {
+                        "id":7
+                        "name":"The Temperature of the Heart"
+                        },
+                        {
+                        "id":8
+                        "name":"The Sword Dance of White and Black"
+                        },
+                        {
+                        "id":9
+                        "name":"The Blue-Eyed Demon"
+                        },
+                        {
+                        "id":10
+                        "name":"Crimson Killing Intent"
+                        },
+                        {
+                        "id":11
+                        "name":"The Girl of Morning Dew"
+                        },
+                        {
+                        "id":12
+                        "name":"Yui's Heart"
+                        },
+                        {
+                        "id":13
+                        "name":"Edge of Hell's Abyss"
+                        },
+                        {
+                        "id":14
+                        "name":"The End of the World"
+                        }
+            ]
+        }
+    ]
+}

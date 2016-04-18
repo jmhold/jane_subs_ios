@@ -1,0 +1,21 @@
+{
+    "metadata" : {
+        "timestamp_utc" : "2016-04-17 23:17:53",
+        "custom_files" : [
+                          {
+                          "bucket_id" : "1016",
+                          "play_offset_ms" : 384380,
+                          "acrid" : "45dd242fc71b9752e404d6a2073cae19",
+                          "title" : "SAO-S01E01",
+                          "audio_id" : "1"
+                          }
+                          ]
+    },
+    "result_type" : 0,
+    "service_type" : 0,
+    "status" : {
+        "msg" : "Success",
+        "version" : "1.0",
+        "code" : 0
+    }
+}

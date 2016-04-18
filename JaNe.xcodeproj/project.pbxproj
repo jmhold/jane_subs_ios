@@ -13,9 +13,21 @@
 		096C50B51CC1BEDB002C1E37 /* JaNe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 096C50B31CC1BEDB002C1E37 /* JaNe.xcdatamodeld */; };
 		096C50B71CC1BEDB002C1E37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 096C50B61CC1BEDB002C1E37 /* Assets.xcassets */; };
 		096C50BA1CC1BEDB002C1E37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 096C50B81CC1BEDB002C1E37 /* LaunchScreen.storyboard */; };
+		096C50C31CC1BF46002C1E37 /* libACRCloud_IOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50C21CC1BF46002C1E37 /* libACRCloud_IOS_SDK.a */; };
+		096C50C71CC1BF9A002C1E37 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50C61CC1BF9A002C1E37 /* Security.framework */; };
+		096C50C91CC1BFAE002C1E37 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50C81CC1BFAE002C1E37 /* libc++.tbd */; };
+		096C50CB1CC1BFB7002C1E37 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50CA1CC1BFB7002C1E37 /* AVFoundation.framework */; };
+		096C50CD1CC1BFC1002C1E37 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50CC1CC1BFC1002C1E37 /* AudioToolbox.framework */; };
+		096C50D11CC1CF29002C1E37 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096C50D01CC1CF29002C1E37 /* MainController.swift */; };
+		096C50D51CC437A6002C1E37 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 096C50D41CC437A6002C1E37 /* SwiftyJSON.framework */; };
+		096C50D71CC4399D002C1E37 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 096C50D61CC4399D002C1E37 /* Podfile */; };
+		096C50DA1CC451A0002C1E37 /* successResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 096C50D91CC451A0002C1E37 /* successResponse.json */; };
+		096C50DD1CC451D7002C1E37 /* SAO.json in Resources */ = {isa = PBXBuildFile; fileRef = 096C50DC1CC451D7002C1E37 /* SAO.json */; };
+		BA2C5F4888DA8C78E33EDD21 /* Pods_JaNe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA9262B0CE82617D8AEA8D11 /* Pods_JaNe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01B519E993B7CE1FE7EADDBC /* Pods-JaNe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaNe.release.xcconfig"; path = "Pods/Target Support Files/Pods-JaNe/Pods-JaNe.release.xcconfig"; sourceTree = "<group>"; };
 		096C50A91CC1BEDB002C1E37 /* JaNe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaNe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		096C50AC1CC1BEDB002C1E37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		096C50AE1CC1BEDB002C1E37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +36,21 @@
 		096C50B61CC1BEDB002C1E37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		096C50B91CC1BEDB002C1E37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		096C50BB1CC1BEDB002C1E37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		096C50C21CC1BF46002C1E37 /* libACRCloud_IOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libACRCloud_IOS_SDK.a; sourceTree = SOURCE_ROOT; };
+		096C50C41CC1BF4F002C1E37 /* ACRCloudConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACRCloudConfig.h; path = include/ACRCloudConfig.h; sourceTree = SOURCE_ROOT; };
+		096C50C51CC1BF4F002C1E37 /* ACRCloudRecognition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACRCloudRecognition.h; path = include/ACRCloudRecognition.h; sourceTree = SOURCE_ROOT; };
+		096C50C61CC1BF9A002C1E37 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		096C50C81CC1BFAE002C1E37 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		096C50CA1CC1BFB7002C1E37 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		096C50CC1CC1BFC1002C1E37 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		096C50CE1CC1C0CD002C1E37 /* JaNe-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JaNe-Bridging-Header.h"; sourceTree = "<group>"; };
+		096C50D01CC1CF29002C1E37 /* MainController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		096C50D41CC437A6002C1E37 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../../Library/Developer/Xcode/DerivedData/JaNe-hdqtjekdbjuxafdiolqfiynzvoml/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
+		096C50D61CC4399D002C1E37 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		096C50D91CC451A0002C1E37 /* successResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = successResponse.json; sourceTree = "<group>"; };
+		096C50DC1CC451D7002C1E37 /* SAO.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SAO.json; sourceTree = "<group>"; };
+		967DD97AD513BE50911B2BE5 /* Pods-JaNe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaNe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JaNe/Pods-JaNe.debug.xcconfig"; sourceTree = "<group>"; };
+		DA9262B0CE82617D8AEA8D11 /* Pods_JaNe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaNe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096C50D51CC437A6002C1E37 /* SwiftyJSON.framework in Frameworks */,
+				096C50CD1CC1BFC1002C1E37 /* AudioToolbox.framework in Frameworks */,
+				096C50CB1CC1BFB7002C1E37 /* AVFoundation.framework in Frameworks */,
+				096C50C91CC1BFAE002C1E37 /* libc++.tbd in Frameworks */,
+				096C50C71CC1BF9A002C1E37 /* Security.framework in Frameworks */,
+				096C50C31CC1BF46002C1E37 /* libACRCloud_IOS_SDK.a in Frameworks */,
+				BA2C5F4888DA8C78E33EDD21 /* Pods_JaNe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +74,12 @@
 		096C50A01CC1BEDB002C1E37 = {
 			isa = PBXGroup;
 			children = (
+				096C50D81CC4517B002C1E37 /* Assets */,
+				096C50D61CC4399D002C1E37 /* Podfile */,
 				096C50AB1CC1BEDB002C1E37 /* JaNe */,
 				096C50AA1CC1BEDB002C1E37 /* Products */,
+				337C1DD98D3F15E82D6A13CB /* Frameworks */,
+				3A3A3420BDA5E84ACDAE0A6A /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +94,8 @@
 		096C50AB1CC1BEDB002C1E37 /* JaNe */ = {
 			isa = PBXGroup;
 			children = (
+				096C50C11CC1BF0F002C1E37 /* includes */,
+				096C50CF1CC1CF05002C1E37 /* JaNe */,
 				096C50AC1CC1BEDB002C1E37 /* AppDelegate.swift */,
 				096C50AE1CC1BEDB002C1E37 /* ViewController.swift */,
 				096C50B01CC1BEDB002C1E37 /* Main.storyboard */,
@@ -67,6 +107,64 @@
 			path = JaNe;
 			sourceTree = "<group>";
 		};
+		096C50C11CC1BF0F002C1E37 /* includes */ = {
+			isa = PBXGroup;
+			children = (
+				096C50CC1CC1BFC1002C1E37 /* AudioToolbox.framework */,
+				096C50CA1CC1BFB7002C1E37 /* AVFoundation.framework */,
+				096C50C81CC1BFAE002C1E37 /* libc++.tbd */,
+				096C50C61CC1BF9A002C1E37 /* Security.framework */,
+				096C50C41CC1BF4F002C1E37 /* ACRCloudConfig.h */,
+				096C50C51CC1BF4F002C1E37 /* ACRCloudRecognition.h */,
+				096C50C21CC1BF46002C1E37 /* libACRCloud_IOS_SDK.a */,
+				096C50CE1CC1C0CD002C1E37 /* JaNe-Bridging-Header.h */,
+			);
+			name = includes;
+			sourceTree = "<group>";
+		};
+		096C50CF1CC1CF05002C1E37 /* JaNe */ = {
+			isa = PBXGroup;
+			children = (
+				096C50D01CC1CF29002C1E37 /* MainController.swift */,
+			);
+			name = JaNe;
+			sourceTree = "<group>";
+		};
+		096C50D81CC4517B002C1E37 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				096C50DB1CC451C4002C1E37 /* SAO */,
+				096C50D91CC451A0002C1E37 /* successResponse.json */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		096C50DB1CC451C4002C1E37 /* SAO */ = {
+			isa = PBXGroup;
+			children = (
+				096C50DC1CC451D7002C1E37 /* SAO.json */,
+			);
+			name = SAO;
+			sourceTree = "<group>";
+		};
+		337C1DD98D3F15E82D6A13CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				096C50D41CC437A6002C1E37 /* SwiftyJSON.framework */,
+				DA9262B0CE82617D8AEA8D11 /* Pods_JaNe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A3A3420BDA5E84ACDAE0A6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				967DD97AD513BE50911B2BE5 /* Pods-JaNe.debug.xcconfig */,
+				01B519E993B7CE1FE7EADDBC /* Pods-JaNe.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 096C50BE1CC1BEDB002C1E37 /* Build configuration list for PBXNativeTarget "JaNe" */;
 			buildPhases = (
+				AF2B0906A60A6D16FA1C7478 /* 📦 Check Pods Manifest.lock */,
 				096C50A51CC1BEDB002C1E37 /* Sources */,
 				096C50A61CC1BEDB002C1E37 /* Frameworks */,
 				096C50A71CC1BEDB002C1E37 /* Resources */,
+				A3F9B388090B06E637984EDD /* 📦 Embed Pods Frameworks */,
+				92B65DCE34C2ED8E8DBC6EAD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,13 +226,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096C50DA1CC451A0002C1E37 /* successResponse.json in Resources */,
 				096C50BA1CC1BEDB002C1E37 /* LaunchScreen.storyboard in Resources */,
 				096C50B71CC1BEDB002C1E37 /* Assets.xcassets in Resources */,
+				096C50DD1CC451D7002C1E37 /* SAO.json in Resources */,
+				096C50D71CC4399D002C1E37 /* Podfile in Resources */,
 				096C50B21CC1BEDB002C1E37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		92B65DCE34C2ED8E8DBC6EAD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaNe/Pods-JaNe-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3F9B388090B06E637984EDD /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JaNe/Pods-JaNe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF2B0906A60A6D16FA1C7478 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		096C50A51CC1BEDB002C1E37 /* Sources */ = {
@@ -140,6 +292,7 @@
 			files = (
 				096C50AF1CC1BEDB002C1E37 /* ViewController.swift in Sources */,
 				096C50B51CC1BEDB002C1E37 /* JaNe.xcdatamodeld in Sources */,
+				096C50D11CC1CF29002C1E37 /* MainController.swift in Sources */,
 				096C50AD1CC1BEDB002C1E37 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,23 +406,35 @@
 		};
 		096C50BF1CC1BEDB002C1E37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 967DD97AD513BE50911B2BE5 /* Pods-JaNe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JaNe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jane.JaNe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "JaNe/JaNe-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		096C50C01CC1BEDB002C1E37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01B519E993B7CE1FE7EADDBC /* Pods-JaNe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JaNe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jane.JaNe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "JaNe/JaNe-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -292,6 +457,7 @@
 				096C50C01CC1BEDB002C1E37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
